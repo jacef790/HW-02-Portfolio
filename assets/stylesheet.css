@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan&display=swap');
+
 
 body{
     height: 100vh;
@@ -11,12 +13,14 @@ ul {
     margin: 0;
     padding: 0;
     text-decoration: none;
+    
 }
 
 li {
     display: inline-block;
     padding: 6px;
     text-decoration: none;
+  
 }
 
 h1{
@@ -47,9 +51,14 @@ a {
     text-decoration: none;
 }
 
+p{
+    width: 50%;
+}
+
 
 .nav-container{
     background: #3912a3;
+   
     
 
 }
@@ -57,15 +66,21 @@ a {
 header {
     display: grid;
     margin: 0%;
-    justify-content: space-evenly;
+    justify-content: right;
     padding: 2em;
 }
 
-
+.section{
+    width: fit-content;
+}
 
 .projects{
     background: rgb(163, 162, 162);
-    padding: 2em;
+    padding: 1em;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    
 }
 
 
