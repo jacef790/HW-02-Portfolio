@@ -5,73 +5,102 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>MyPortfolio</title>
-    <link rel="stylesheet" href="assets/reset.css">
-    <link rel="stylesheet" href="assets/stylesheet.css">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="./assets/reset.css">
+    <link rel="stylesheet" href="./assets/stylesheet.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@600&display=swap" rel="stylesheet">
 </head>
 
 <body>
+    <header class="header">
+        <h1>Jace Feinstein</h1>
 
-    <div class="nav-container">
-        <header>
-            <nav>
-                <ul>
-                    <li><a href="#">About Me</a></li>
-                    <li><a href="#">Work</a></li>
-                    <li><a href="#">Contact</a></li>
-                    <li><a href="#">Resume</a></li>
-                </ul>
-            </nav>
-        </header>
-    </div>
-
-    <div class="aboutMe">
-        <div class="content">
-            <h1>Jace Feinstein</h1>
-            <p class="aboutme-p">Zombie ipsum reversus ab viral inferno,
-                nam rick grimes malum cerebro. De carne
-                lumbering animata corpora quaeritis.
-                Summus brains sit​​, morbo vel maleficia?
-                De apocalypsi gorger omero undead survivor
-                dictum mauris. Hi mindless mortuis soulless
-                creaturas, imo evil stalking monstra adventus
-                resi dentevil vultus comedat cerebella viventium.</p>
-            <img src="./assets/img/Jf.jpg" alt="Jace holding Jace">
-        </div>
-
-    </div>
-
-    <section class="work">
-        <div class="projects">
-        <img src="./assets/img/comp.jpg" alt="Desk Items">
-        <img src="./assets/img/js.jpg" alt="javascript">
-        <!-- <img src="./assets/img/football.jpg" alt="football"> -->
-        <img src="./assets/img/keyboard.jpg" alt="keyboard">
-        
-        </div>
-    </section>
-
-    <section class="contact">
-        <div class="social">
+        <nav>
             <ul>
-                <li><a href="#">Github</a></li>
-                <li><a href="#">Twitter</a></li>
-                <li><a href="#">Insta</a></li>
+                <li><a href="#about-me">About Me</a></li>
+                <li><a href="#work">Work</a></li>
+                <li><a href="#contact-me">Contact</a></li>
+                <li><a href="#">Resume</a></li>
             </ul>
-        </div>
-    </section>
+        </nav>
+    </header>
 
-    <section>
-        <div class="bottom">
+    <figure class="hero">
+        <img class="me" src="./assets/img/IMG-20220329-WA0001.jpg" alt="">
+    </figure>
 
-        </div>
-    </section>
+    <main class="stuff">
+        <section class="content">
+            <h2 class="left-side" id="about-me">About Me</h2>
+            <div>
+                <p class="para">Zombie ipsum reversus ab viral inferno, nam rick grimes malum cerebro.
+                    De carne lumbering animata corpora quaeritis. Summus brains sit​​,
+                    morbo vel maleficia? De apocalypsi gorger omero undead survivor dictum mauris.
+                    Hi mindless mortuis soulless creaturas, imo evil stalking monstra adventus
+                    resi dentevil vultus comedat cerebella viventium.</p>
+            </div>
+        </section>
 
-<footer>
-    
-</footer>
+        <section class="content">
+            <h2 class="left-side" id="work">Work</h2>
+            <div class="imgs">
+                <figure class="kb">
+                    <div class="box-text">
+                        <div>
+                            <h3>MERN STACK</h3>
+                        </div>
+                    </div>
+                </figure>
 
+                <figure class="desk">
+                    <div class="box-text">
+                        <div>
+                            <h3>LED WALL</h3>
+                        </div>
+                    </div>
+                </figure>
 
+                <figure class="led">
+                    <div class="box-text">
+                        <div>
+                            <h3>CALCULATOR</h3>
+                        </div>
+                    </div>
+                </figure>
+
+                <figure class="lights">
+                    <div class="box-text">
+                        <div>
+                            <h3>PASTEL PUZZLES</h3>
+                        </div>
+                    </div>
+                </figure>
+
+                <figure class="football">
+                    <div class="box-text">
+                        <div>
+                            <h3>RUN BUDDY</h3>
+                        </div>
+                    </div>
+                </figure>
+            </div>
+        </section>
+
+        <section class="content">
+            <h2 class="left-side" id="contact-me">CONTACT ME</h2>
+            <div class="social">
+                <ul>
+                    <li><a href="#">Github</a></li>
+                    <li><a href="#">Twitter</a></li>
+                    <li><a href="#">Insta</a></li>
+                    <li>555-555-5555</li>
+                </ul>
+            </div>
+        </section>
+        </section>
+    </main>
 
 </body>
 
